@@ -66,7 +66,7 @@ function myFunction(value, index, arr9) {
 }
 
 
-let arr10 = Array.from("arun")
+let arr10 = Array.from("aruna")
 console.log("10.Arrayfrom ",arr10)
 
 
@@ -75,7 +75,7 @@ console.log("11.includes",arr11.includes("kumar",1))
 
 
 let arr12 = ["angle", "sriram", "ragul", "gopi", "kumar"];
-let index = arr12.indexOf("kumar",3);
+let index = arr12.indexOf("angel",3);
 console.log("12.index",index)
 
 
@@ -86,7 +86,7 @@ console.log("13.isarray",result)
 
 let arr14 = ["arunachalam", "mental", "ragul", "gopi", "kumar"];
 let result1 = arr14.join();
-console.log("14.isarray",result1)
+console.log("14.join",result1)
 
 
 let arr15 = ["fradu", "fradu", "ragul", "gopi", "kumar"];
@@ -99,8 +99,8 @@ for (let x of keys) {
 console.log("15.keys",text)
 
 
-let arr16 = ["gopi", "kumar", "ragul", "aiming bot", "gopi"];
-let index1 = arr16.lastIndexOf("gopi");
+let arr16 = ["angle", "kumar", "ragul", "kumar", "gopi"];
+let index1 = arr16.lastIndexOf("kumar");
 console.log("16.lastIndexOf",index1)
 
 
@@ -133,16 +133,16 @@ console.log("20.push ",arr20)
 let arr21 = [1,2,3,4,5];
 let res3 = arr21.reduce(getSum, 0);
 
-function getSum(total, num) {
-  return total + num };
+function getSum(a, b) {
+  return a + b };
 console.log("21.reduce ",res3)
 
 
 let arr22 = [1,2,3,4,5];
 let res4 = arr22.reduceRight(myFunc);
 
-function myFunc(total, num) {
-  return total - num;
+function myFunc(a, b) {
+  return a - b;
 }
 console.log("22.reduce right ",res4)
 
@@ -159,7 +159,7 @@ console.log("24.shift ",arr24)
 
 let arr25= ["angel", "king", "ragul", "gopi"];
 let citrus = arr25.slice(1, 3);
-console.log("25.shift ",citrus)
+console.log("25.Slice ",citrus)
 
 
 let even4 = [12, 22, 32, 42];
